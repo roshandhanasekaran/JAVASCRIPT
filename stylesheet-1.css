@@ -1,0 +1,59 @@
+
+
+         <!-- .flex-container{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            flex-wrap: wrap; 
+            background-color:nil;
+        } -->
+            .fancy-border{
+                border: 3px dashed red;
+            }
+
+                body {
+                        color:black;
+                        
+                    }
+                    h1:hover{
+                        color: cadetblue;
+                    }
+                    p {
+                        
+                        font-family: Georgia, 'Times New Roman', Times, serif;
+                        display: block;
+                        width: 40%;
+                        margin-left:30px
+                         
+                    }
+                    ul>li:nth-child(1)
+                     {
+                         background-color: yellow;
+                        text-shadow:2px 3px darkred;opacity: 1;
+                        color: red;
+                        font-variant-east-asian: full-width;
+                    }
+                    @keyframes change-color{
+                        from {background-color: salmon; top: 10px;
+                        left: 20px;}
+                        to{background-color: lightblue; top: 10px;
+                            left: 20px}
+                        0%{color: lightgreen; top: 10px;
+                            left: 20px}
+                        10%{color: brown; top: 10px;
+                            left: 20px}
+                        30%{color: blue; top: 10px;
+                            left: 20px}
+                        50%{color:violet; top: 10px;
+                            left: 20px}
+
+                    }
+
+                        .box-animation{
+                            position: relative;
+                            animation-name: change-color;
+                            animation-duration 2s;
+                            animation-iteration-count:infinity
+                        }
+                    }
+
