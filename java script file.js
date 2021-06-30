@@ -163,9 +163,11 @@ else if(isMale && !isTall){
 } 
 else if(!isMale && isTall){
     document.write("is not a male but you are tall");
-} elase {
+} else {
     document.write('is not male');
 }
+
+
 
 
 
@@ -173,7 +175,7 @@ var isMale = false;
 var isTall = false;
 if(isMale || isTall){
     document.write("you are male");
-}elase {
+}else {
     document.write('is not male');
 }
 
